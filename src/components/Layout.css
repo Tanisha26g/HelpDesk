@@ -1,0 +1,32 @@
+.layout {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+
+.body {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    width: calc(100vw - 250px);
+    /* responsive width */
+    height: calc(100vh - 90px);
+    /* excludes header */
+}
+
+.content-area {
+    flex-grow: 1;
+    height: calc(100vh - 90px - 50px);
+    /* exclude header + footer */
+    background-color: white;
+    padding: 20px;
+    overflow-y: auto;
+    box-sizing: border-box;
+}

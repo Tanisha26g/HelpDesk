@@ -1,0 +1,12 @@
+.sidebar {
+    width: 250px;
+    height: calc(100vh - 90px);
+    /* total height minus header */
+    background-color: #6a67674d;
+    display: flex;
+    flex-direction: column;
+    padding-top: 40px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    gap: 30px;
+}

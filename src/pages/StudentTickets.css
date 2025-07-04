@@ -1,0 +1,116 @@
+.tickets-container {
+    padding: 30px;
+    font-family: Arial, sans-serif;
+}
+
+.tickets-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 30px;
+}
+
+.ticket-controls {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    font-size: 14px;
+    align-items: center;
+}
+
+.ticket-select {
+    margin: 0 10px;
+    padding: 5px;
+}
+
+.ticket-search input {
+    margin-left: 10px;
+    padding: 6px 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.ticket-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 15px;
+}
+
+.ticket-table th,
+.ticket-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.ticket-table th {
+    background-color: #f2f2f2;
+}
+
+.star {
+    color: gold;
+    font-size: 18px;
+    cursor: pointer;
+    margin: 0 1px;
+}
+
+.ticket-footer {
+    font-size: 14px;
+    color: #333;
+    text-align: right;
+}
+
+.ticket-link {
+    color: #2F82FF;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.modal-content {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 500px;
+    max-width: 90%;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.modal-content h3 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.modal-details {
+    text-align: left;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.modal-details p {
+    margin: 6px 0;
+}
+
+.close-btn {
+    background-color: #03CC17;
+    color: white;
+    border: none;
+    padding: 10px 25px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
