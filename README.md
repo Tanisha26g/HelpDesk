@@ -52,7 +52,7 @@ The system auto-detects the user role based on the entered **email** on the Sign
 ## 🚀 Deployment
 
 Hosted on **Vercel**:  
-🔗 [https://your-vercel-project.vercel.app](https://your-vercel-project.vercel.app)  
-_(replace with your actual link)_
+🔗 [[https://your-vercel-project.vercel.app](https://your-vercel-project.vercel.app)  
+_(replace with your actual link)_](https://help-desk-omega.vercel.app/)
 
 ---
